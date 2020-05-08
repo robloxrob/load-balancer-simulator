@@ -1,0 +1,26 @@
+---
+tests:
+  first:
+    name: "8 nodes, 5 times"
+    loadbalancercount: 140
+    connections: 6000000
+    resetratio: 8
+    times: 5
+  second:
+    name: "8 Nodes, 1 time"
+    loadbalancercount: 140
+    connections: 6000000
+    resetratio: 8
+    times: 1
+  third:
+    name: "25 nodes, 5 times"
+    loadbalancercount: 140
+    connections: 6000000
+    resetratio: 25
+    times: 5
+  forth:
+    name: "25 nodes, 5 times"
+    loadbalancercount: 140
+    connections: 6000000
+    resetratio: 1
+    times: 5
